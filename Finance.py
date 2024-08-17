@@ -9,7 +9,7 @@ MONTHS_IN_YEAR = 12
 # ---------------------------
 
 # Assumption - You will invest everything in your StartingNetWorth except your initial payment on mortgage
-StartingNetWorth = 144_000                # starting sum in your bank - I.E הון עצמי התחלתי
+StartingNetWorth = X                # starting sum in your bank - I.E הון עצמי התחלתי
 
 # Market Growths
 PortfolioGrowthAvg   = 8.5   # Average growth of Stocks (12% per year for SP500 dividends included)
@@ -17,19 +17,19 @@ Deviation            = 15  # std Deviation for calculating the growth, history s
 GrowthHouse          = 1                       # increase of house prices per year
 
 # Expenses s.a rent \ mortgage
-MoneySpentOnRent        = 0                 # ILS, each month on rent
-MonthlyMortgagePayment  = 0             
+MoneySpentOnRent        = X                 # ILS, each month on rent
+MonthlyMortgagePayment  = X             
 
 # Mortgage data - Years \ House Value
-YearsOfMortgage             = 30
-HouseValueInDateOfPurchase  = 0        # ILS, "obtained" from mortgage - i.e the house value
-InitialMortgagePayment      = 0                  # ההון העצמי ששים על משכנתא
+YearsOfMortgage             = X
+HouseValueInDateOfPurchase  = X        # ILS, "obtained" from mortgage - i.e the house value
+InitialMortgagePayment      = X                  # ההון העצמי ששים על משכנתא
 
 # Money you save up and invest each month
-ExtraAddedToPortfolioEachMonth = 4500            # ILS, stock purchase each month
+ExtraAddedToPortfolioEachMonth = X            # ILS, stock purchase each month
 
 # Simulation Variables
-SimulationYears = 24                            # total simulation time      
+SimulationYears = 35                            # total simulation time      
 
 # Unmask one of the two
 SimMode = "Average"
