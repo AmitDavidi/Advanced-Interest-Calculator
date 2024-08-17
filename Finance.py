@@ -9,6 +9,7 @@ MONTHS_IN_YEAR = 12
 # ---------------------------
 
 # Assumption - You will invest everything in your StartingNetWorth except your initial payment on mortgage
+# Fill everything with "X" yourself
 StartingNetWorth = X                # starting sum in your bank - I.E הון עצמי התחלתי
 
 # Market Growths
